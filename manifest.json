@@ -1,0 +1,13 @@
+{
+  "name": "Friends!!",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "人類フレンズ化計画",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-3.1.1.min.js", "script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
